@@ -48,5 +48,6 @@ if __name__ == '__main__':
     from connection import ConnectionContext
 
     with ConnectionContext() as connection:
+        proxy = BluezHCI0Proxy()
 
-        print(introspect(connection))
+        print(proxy.get_all(connection).keys())
