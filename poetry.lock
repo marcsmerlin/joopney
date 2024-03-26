@@ -18,4 +18,4 @@ trio = ["async_generator", "trio"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "65b5d5f3cb378eb07f77ac288b1d7c37a7b65771a9d8fe729082e62f9b9e494e"
+content-hash = "819a285da9a6ba6c5dcf2c7361811c3c38c546f8dab70e8d3b30272c79a58808"
