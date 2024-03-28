@@ -46,8 +46,9 @@ class BluezHCI0Proxy(BluezProxy):
 if __name__ == '__main__':
 
     from connection import ConnectionContext
+    from pprint import pprint
 
     with ConnectionContext() as connection:
         proxy = BluezHCI0Proxy()
 
-        print(proxy.get_all(connection).keys())
+        pprint(proxy.get_all(connection))
