@@ -3,8 +3,8 @@ from typing import Final, Any
 from jeepney import DBusAddress, new_method_call, Properties, Message
 from jeepney.io.blocking import DBusConnection
 
-from connection import ConnectionContext
-from introspectable_proxy import IntrospectableProxy
+from joopney.connection import ConnectionContext
+from joopney.introspectable_proxy import IntrospectableProxy
 
 BUS_NAME: Final[str] = 'org.freedesktop.DBus'
 DEFAULT_PATH: Final[str] = '/org/freedesktop/DBus'

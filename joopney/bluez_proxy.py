@@ -3,7 +3,7 @@ from typing import Any, Final
 from jeepney import DBusAddress, new_method_call, Properties
 from jeepney.io.blocking import DBusConnection
 
-from introspectable_proxy import IntrospectableProxy
+from joopney.introspectable_proxy import IntrospectableProxy
 
 BUS_NAME: Final[str] = 'org.bluez'
 DEFAULT_PATH: Final[str] = '/org/bluez'

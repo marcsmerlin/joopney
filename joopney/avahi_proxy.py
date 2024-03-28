@@ -42,7 +42,7 @@ class AvahiServerProxy(AvahiProxy):
 
 if __name__ == '__main__':
 
-    from connection import ConnectionContext
+    from joopney.connection import ConnectionContext
 
     with ConnectionContext() as connection:
 
